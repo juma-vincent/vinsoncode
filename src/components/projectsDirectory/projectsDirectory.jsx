@@ -5,12 +5,12 @@ import ProjectItem from "../projectItem/projectItem";
 const ProjectsDirectory = ({ projects }) => {
   return (
     <div className="projects-container">
-      {projects.Object.keys.map((key) => (
+      {Object.keys(projects).map((key) => (
         <ProjectItem
-          key={key.id}
-          title={key.title}
-          imageUrls={key.imageUrls}
-          description={key.description}
+          key={projects[key].id}
+          title={projects[key].title}
+          imageUrls={projects[key].imageUrls}
+          description={projects[key].description}
         />
       ))}
     </div>

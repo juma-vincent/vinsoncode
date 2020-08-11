@@ -1,0 +1,21 @@
+.project-item-container {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  //   border: solid 1px black;
+  justify-self: start;
+
+  .description {
+    width: 50%;
+    margin-right: 40px;
+  }
+  .images-container {
+    align-content: center;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: 270px;
+    width: 250px;
+  }
+}

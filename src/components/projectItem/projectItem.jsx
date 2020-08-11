@@ -12,10 +12,10 @@ const ProjectItem = ({ title, imageUrls, description }) => {
         </p>
       </div>
       <div className="images-container">
-        {imageUrls.map((url) => (
-          <span>
+        {imageUrls.map((imageUrl) => (
+          <span key={imageUrl.id}>
             {" "}
-            <img src={url} alt="Project image" />
+            <img src={imageUrl.url} alt="" />
           </span>
         ))}
       </div>
