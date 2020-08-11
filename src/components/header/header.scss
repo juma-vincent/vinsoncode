@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  .logo {
+    padding: 5px;
+    height: 70px;
+    width: 200px;
+  }
+  .options-container {
+    display: flex;
+    flex-direction: flex-end;
+    .option {
+      text-align: center;
+    }
+  }
+}
