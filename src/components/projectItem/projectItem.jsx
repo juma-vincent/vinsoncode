@@ -11,14 +11,7 @@ const ProjectItem = ({ title, imageUrls, description }) => {
           <small>{description}</small>
         </p>
       </div>
-      <div className="images-container">
-        {imageUrls.map((imageUrl) => (
-          <span key={imageUrl.id}>
-            {" "}
-            <img src={imageUrl.url} alt="" />
-          </span>
-        ))}
-      </div>
+      <div className="images-container"></div>
     </div>
   );
 };

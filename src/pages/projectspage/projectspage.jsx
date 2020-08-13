@@ -1,15 +1,14 @@
 import React from "react";
-import "./projectsDirectory.scss";
-import ProjectItem from "../projectItem/projectItem";
+import "./projectspage.scss";
+import ProjectItem from "../../components/projectItem/projectItem";
 
-const ProjectsDirectory = ({ projects }) => {
+const ProjectsPage = ({ projects }) => {
   return (
     <div className="projects-container">
       {Object.keys(projects).map((key) => (
         <ProjectItem
           key={projects[key].id}
           title={projects[key].title}
-          imageUrls={projects[key].imageUrls}
           description={projects[key].description}
         />
       ))}
@@ -17,4 +16,4 @@ const ProjectsDirectory = ({ projects }) => {
   );
 };
 
-export default ProjectsDirectory;
+export default ProjectsPage;

@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
+
 import Footer from "./components/footer/footer";
 import { projectData } from "./projectData";
-import ProjectsDirectory from "./components/projectsDirectory/projectsDirectory";
 import Header from "./components/header/header";
+import { Route, Switch } from "react-router-dom";
+import Homepage from "./pages/homepage/homepage";
+import ProjectsPage from "./pages/projectspage/projectspage";
 
 class App extends Component {
   constructor(props) {
@@ -19,16 +22,13 @@ class App extends Component {
       <div>
         <Header />
 
-        {/* <div className="flex align-items-center banner tc">
-          <img
-            className="tc br-3 w-100 o-80"
-            src="/images/banner.jpg"
-            alt="Image"
+        <Switch>
+          <Route exact path="/" component={Homepage} />
+          <Route
+            path="/projects"
+            render={() => <ProjectsPage projects={projects} />}
           />
-        </div> */}
-
-        <ProjectsDirectory projects={projects} />
-
+        </Switch>
         <Footer />
       </div>
     );

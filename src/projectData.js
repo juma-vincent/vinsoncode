@@ -1,46 +1,25 @@
 export const projectData = {
   robofriends: {
     id: 1,
-    title: "This is the First Post: Fruits",
-    imageUrls: [
-      { id: 1, url: "/images/mango.jpg" },
-      { id: 2, url: "/images/mango.jpg" },
-    ],
+    title: "Robofriends",
     description: `
-    The body of the first post.The body of the first post.The body of the first post.   
-    The body of the first post.The body of the first post.The body of the first post.The body of the first post.
-    The body of the first post.The body of the first post.The body of the first post.The body of the first post.
-    The body of the first post.The body of the first post.The body of the first post.The body of the first post.
-    The body of the first post.The body of the first post.The body of the first post.The body of the first post.
+    A list of profiles with robot images fetched from a public API built in Redux.
     `,
   },
   smartbrain: {
     id: 2,
-    title: "This is the Second Post: Phone",
-    imageUrls: [
-      { id: 1, url: "/images/mango.jpg" },
-      { id: 2, url: "/images/mango.jpg" },
-    ],
+    title: "Smart Brain",
+
     description: `
-     The body of the second post.The body of the second post.The body of the second post.
-     The body of the second post.The body of the second post.The body of the second post.
-     The body of the second post.The body of the second post.The body of the second post.
-     The body of the second post.The body of the second post.The body of the second post.
-     The body of the second post.The body of the second post.The body of the second post.
+     A face recognition  application that identifies faces on an image submitted to it.
     `,
   },
   grancents: {
     id: 3,
-    title: "This is the Third Post: Fruits",
-    imageUrls: [
-      { id: 1, url: "/images/mango.jpg" },
-      { id: 2, url: "/images/mango.jpg" },
-    ],
+    title: "Grancents Collection",
+
     description: `
-     The body of the third post.The body of the third post.The body of the third post.The body of the third post.
-     The body of the third post.The body of the third post.The body of the third post.The body of the third post.
-     The body of the third post.The body of the third post.The body of the third post.The body of the third post.
-     The body of the third post.The body of the third post.The body of the third post.The body of the third post. 
+     An e-commerce application online store that allows users to shop for outfits of their choice. 
     `,
   },
 };
