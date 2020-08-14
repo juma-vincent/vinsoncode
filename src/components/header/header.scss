@@ -3,13 +3,24 @@
   .logo {
     padding: 5px;
     height: 70px;
-    width: 200px;
+    // width: 200px;
+    width: 17%;
   }
   .options-container {
+    width: 80%;
     display: flex;
-    flex-direction: flex-end;
+    justify-content: flex-end;
     .option {
+      margin: 20px 10px;
+      height: 25px;
       text-align: center;
+      font-size: 15px;
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+      border-bottom: black 1px solid;
+      border-radius: 4px;
+      padding: 0px 5px;
     }
   }
 }

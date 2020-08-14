@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,8 +9,12 @@ const Header = () => {
         <img src="/images/logo.png" alt="" />
       </div>
       <div className="options-container">
-        <div className="option">Home</div>
-        <div className="option">Projects</div>
+        <Link to="/" className="option">
+          HOME
+        </Link>
+        <Link to="/projects" className="option">
+          PROJECTS
+        </Link>
       </div>
     </div>
   );
