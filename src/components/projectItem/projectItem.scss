@@ -16,24 +16,51 @@
 
     img {
       width: 65%;
-      box-shadow: 0 15px 40px rgba(19, 18, 18, 0.5);
+      box-shadow: 0 15px 40px rgba(19, 18, 18, 0.4);
       border-radius: 2px;
+      z-index: 10;
+      transition: all 0.05s;
+      outline-offset: 13px;
     }
 
     .one {
       position: absolute;
       top: 0px;
       left: 0px;
+
+      &:hover {
+        outline: 13px solid rgb(118, 211, 12);
+        transform: scale(1.02);
+        box-shadow: 0 25px 40px rgba(19, 18, 18, 0.6);
+        z-index: 20;
+      }
     }
     .two {
       position: absolute;
       top: 40px;
       right: 0px;
+
+      &:hover {
+        outline: 13px solid rgb(118, 211, 12);
+        transform: scale(1.02);
+        box-shadow: 0 25px 40px rgba(19, 18, 18, 0.6);
+        z-index: 20;
+      }
     }
     .three {
       position: absolute;
       top: 95px;
       left: 10%;
+
+      &:hover {
+        outline: 13px solid rgb(118, 211, 12);
+        transform: scale(1.02);
+        box-shadow: 0 25px 40px rgba(19, 18, 18, 0.6);
+        z-index: 20;
+      }
     }
+  }
+  .images-container:hover img:not(:hover) {
+    transform: scale(0.85);
   }
 }

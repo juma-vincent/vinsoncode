@@ -2,11 +2,32 @@
   display: flex;
   flex-direction: column;
   .background-image {
+    position: relative;
     background-image: linear-gradient(to right bottom, #070706f5, #26e20d2f),
       url("/images/serveroom.jpg");
     background-size: cover;
     height: 60vh;
     color: #ec9819a8;
+
+    .profile-image {
+      width: 270px;
+      height: 270px;
+      background-image: url("/images/profile2.png");
+      background-size: cover;
+      border: none;
+      display: block;
+      position: absolute;
+      top: 40px;
+      left: 500px;
+    }
+    .profile-text {
+      font-size: 22px;
+      font-weight: 700;
+      color: white;
+      position: absolute;
+      top: 310px;
+      left: 520px;
+    }
   }
 
   .main-section {
