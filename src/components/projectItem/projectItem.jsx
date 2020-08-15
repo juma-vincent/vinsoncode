@@ -1,5 +1,6 @@
 import React from "react";
 import "./projectItem.scss";
+import CustomButton from "../button/customButton";
 
 const ProjectItem = ({ title, imageUrls, description, website, github }) => {
   return (
@@ -10,12 +11,12 @@ const ProjectItem = ({ title, imageUrls, description, website, github }) => {
         <p>
           <div>{description}</div>
           <div>
-            <span>
-              <a href={website}> View site</a>{" "}
-            </span>
-            <span>
-              <a href={github}>View on github</a>{" "}
-            </span>
+            <div>
+              <CustomButton link={website} children={`View site`} />
+            </div>
+            <div>
+              <CustomButton link={github} children={`View code on github`} />
+            </div>
           </div>
         </p>
       </div>
