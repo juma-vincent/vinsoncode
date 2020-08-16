@@ -8,21 +8,24 @@ const ProjectItem = ({ title, imageUrls, description, website, github }) => {
       <div className="description">
         <h3>{title}</h3>
 
-        <p>
-          <div>{description}</div>
+        <div>{description}</div>
+        <div>
           <div>
-            <div>
-              <CustomButton link={website} children={`View site`} />
-            </div>
-            <div>
-              <CustomButton link={github} children={`View code on github`} />
-            </div>
+            <CustomButton link={website} children={`View site`} />
           </div>
-        </p>
+          <div>
+            <CustomButton link={github} children={`View code on github`} />
+          </div>
+        </div>
       </div>
       <div className="images-container">
         {imageUrls.map((imageUrl) => (
-          <img className={imageUrl.id} key={imageUrl.id} src={imageUrl.url} />
+          <img
+            className={imageUrl.id}
+            alt=""
+            key={imageUrl.id}
+            src={imageUrl.url}
+          />
         ))}
       </div>
     </div>

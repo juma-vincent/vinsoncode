@@ -8,6 +8,8 @@
     background-size: cover;
     height: 60vh;
     color: #ec9819a8;
+    @media screen and (max-width: 400px) {
+    }
 
     .profile-image {
       width: 270px;
@@ -19,14 +21,22 @@
       position: absolute;
       top: 60px;
       left: 530px;
+      @media screen and (max-width: 400px) {
+        top: 60px;
+        left: 50px;
+      }
     }
     .profile-text {
-      font-size: 24px;
+      font-size: 27px;
       font-weight: 700;
       color: white;
       position: absolute;
       top: 322px;
       left: 552px;
+      @media screen and (max-width: 400px) {
+        top: 330px;
+        left: 68px;
+      }
     }
   }
 
@@ -42,12 +52,17 @@
 
       background-color: rgba(255, 255, 255, 0.4);
       margin: 50px;
+      @media screen and (max-width: 400px) {
+        width: 90%;
+        justify-content: center;
+        margin: 0 auto;
+      }
 
       .title {
         margin-bottom: 15px;
-        margin-left: 50px;
+        margin-left: 65px;
         font-weight: 700;
-        font-size: 23px;
+        font-size: 27px;
         text-transform: capitalize;
         border-bottom: solid 2px gray;
         width: 115px;
@@ -64,10 +79,23 @@
           // object-fit: cover;
           display: block;
           border-radius: 90%;
+          @media screen and (max-width: 400px) {
+            top: 330px;
+            left: 68px;
+          }
         }
         .description {
           width: 60%;
           padding: 30px;
+          @media screen and (max-width: 400px) {
+            padding: 5px 0;
+            width: 100%;
+          }
+        }
+        @media screen and (max-width: 400px) {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
         }
       }
     }
