@@ -24,6 +24,10 @@
     letter-spacing: 1.5px;
     transition: all 0.2s;
 
+    @media screen and (max-width: 400px) {
+      margin-bottom: 10px;
+    }
+
     &:hover {
       transform: skewY(1deg) skewX(15deg) scale(1.1);
       text-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4);

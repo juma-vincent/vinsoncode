@@ -8,7 +8,7 @@
     background-size: cover;
     height: 60vh;
     color: #ec9819a8;
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 800px) {
     }
 
     .profile-image {
@@ -21,9 +21,16 @@
       position: absolute;
       top: 60px;
       left: 530px;
+
+      @media screen and (max-width: 800px) {
+        width: 170px;
+        height: 170px;
+        top: 5px;
+        left: 240px;
+      }
       @media screen and (max-width: 400px) {
         top: 60px;
-        left: 50px;
+        left: 90px;
       }
     }
     .profile-text {
@@ -33,9 +40,15 @@
       position: absolute;
       top: 322px;
       left: 552px;
+      @media screen and (max-width: 800px) {
+        top: 170px;
+        left: 230px;
+        font-size: 20px;
+        font-weight: 600;
+      }
       @media screen and (max-width: 400px) {
-        top: 330px;
-        left: 68px;
+        top: 225px;
+        left: 87px;
       }
     }
   }
@@ -52,10 +65,10 @@
 
       background-color: rgba(255, 255, 255, 0.4);
       margin: 50px;
-      @media screen and (max-width: 400px) {
+      @media screen and (max-width: 800px) {
         width: 90%;
         justify-content: center;
-        margin: 0 auto;
+        margin: 10px auto;
       }
 
       .title {
@@ -65,8 +78,12 @@
         font-size: 27px;
         text-transform: capitalize;
         border-bottom: solid 2px gray;
-        width: 115px;
+        width: 125px;
         text-align: center;
+
+        @media screen and (max-width: 800px) {
+          margin-left: 40px;
+        }
       }
       .content {
         display: flex;
@@ -79,20 +96,21 @@
           // object-fit: cover;
           display: block;
           border-radius: 90%;
-          @media screen and (max-width: 400px) {
-            top: 330px;
-            left: 68px;
+          @media screen and (max-width: 800px) {
+            margin-bottom: 10px;
+            width: 200px;
+            height: 200px;
           }
         }
         .description {
           width: 60%;
           padding: 30px;
-          @media screen and (max-width: 400px) {
-            padding: 5px 0;
+          @media screen and (max-width: 800px) {
+            padding: 10px 0;
             width: 100%;
           }
         }
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 800px) {
           display: flex;
           flex-direction: column;
           justify-content: center;
