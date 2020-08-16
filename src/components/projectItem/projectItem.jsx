@@ -11,10 +11,14 @@ const ProjectItem = ({ title, imageUrls, description, website, github }) => {
         <div>{description}</div>
         <div>
           <div>
-            <CustomButton link={website} children={`View site`} />
+            <CustomButton
+              className="link"
+              link={website}
+              children={`See Live`}
+            />
           </div>
           <div>
-            <CustomButton link={github} children={`View code on github`} />
+            <CustomButton link={github} children={`Source Code`} />
           </div>
         </div>
       </div>
