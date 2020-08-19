@@ -7,6 +7,7 @@ const Footer = () => {
       <h4 className="title"> Contact Information</h4>
       <small> Email: vinsoncode@gmail.com </small> <br />
       <small>Phone: +254712062516</small>
+      <small>&copy; 2020 by Vinsoncode. All rights reserved.</small>
     </div>
   );
 };
