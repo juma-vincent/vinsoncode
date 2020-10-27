@@ -1,6 +1,23 @@
 export const projectData = {
+
+  intelligentfarm: {
+    id: 4,
+
+    title: "Intelligent Farm",
+    description: `
+    A web application that allows a group of farmers to sell their farm produce online.
+    `,
+
+    imageUrls: [
+      { id: "one", url: "/images/intelligentfarm1.jpg" },
+      { id: "two", url: "/images/intelligentfarm2.jpg" },
+      { id: "three", url: "/images/intelligentfarm3.jpg" },
+    ],
+    website: `https://intelligent-farm.herokuapp.com/`,
+    github: `https://github.com/juma-vincent/Team-1193-Frontend`,
+  },
   grancents: {
-    id: 1,
+    id: 2,
     title: "Grancents Collection",
     description: `
     An e-commerce application online store that allows users to shop for outfits of their choice. 
@@ -15,7 +32,7 @@ export const projectData = {
     github: `https://github.com/juma-vincent/grancents-collection`,
   },
   smartbrain: {
-    id: 2,
+    id: 3,
     title: "Smart Brain",
 
     description: `
@@ -30,7 +47,7 @@ export const projectData = {
     website: `https://smart-brain001.herokuapp.com/`,
   },
   robofriends: {
-    id: 3,
+    id: 4,
 
     title: "Robofriends",
     description: `
@@ -45,4 +62,6 @@ export const projectData = {
     website: `https://juma-vincent.github.io/robofriends/`,
     github: `https://github.com/juma-vincent/robofriends/`,
   },
+  
+
 };

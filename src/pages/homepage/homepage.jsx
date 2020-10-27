@@ -20,8 +20,8 @@ const Homepage = () => {
             <div className="description">
               Hi, my name is Vincent Juma, a self taught front-end developer,
               with immense experience in React JS and Redux Saga. I enjoy
-              building solutions that rightfully meets the user's expectations
-              which has lasting value. I'm also passionate about contributing to
+              building solutions that rightfully meets user expectations
+              and which brings lasting value. I'm also passionate about contributing to
               open source projects which have significantly added more to my
               programming repetoire.
             </div>
