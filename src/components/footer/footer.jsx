@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer-container">
       <h4 className="title"> Contact Information</h4>
       <small> Email: vinsoncode@gmail.com </small> <br />
-      <small>Phone: +254712062516</small>
+      <small>Phone: +254712062516</small> <br/>
       <small>&copy; 2020 by Vinsoncode. All rights reserved.</small>
     </div>
   );
