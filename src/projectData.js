@@ -1,4 +1,20 @@
 export const projectData = {
+  jamanu: {
+    id: 5,
+
+    title: "Jamanu Food Lover's Market",
+    description: `
+    An e-commerce application for selling and delivering fresh food across the country.
+    `,
+
+    imageUrls: [
+      { id: "one", url: "/images/jamanu1.jpg" },
+      { id: "two", url: "/images/jamanu2.jpg" },
+      { id: "three", url: "/images/jamanu3.jpg" },
+    ],
+    website: `https://jamanu.herokuapp.com/`,
+    github: `https://github.com/juma-vincent/Jamanu`,
+  },
 
   intelligentfarm: {
     id: 4,
