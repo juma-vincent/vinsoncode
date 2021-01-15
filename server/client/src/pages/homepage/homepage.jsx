@@ -25,7 +25,7 @@ const Homepage = () => {
               I ensure any client I serve gets the best from me. I'm a curious persion, I love
               learning new and challenging things, I enjoy solving problems. Am also an active contributor
               to open source projects on <a id='github-link' href="https://github.com/juma-vincent">github</a>.
-               Feel free    to reach out to me, via the contact details below.
+               Feel free to reach out to me, via the contact details below.
             </div>
           </div>
         </div>
