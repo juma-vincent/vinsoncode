@@ -14,7 +14,7 @@ const Homepage = () => {
         <VideoBackground />
 
         <div className="about-container">
-          <div className="title">About Me</div>
+          <div className="title">HAPPY BIRTHDAY TO ME</div>
           <div className="content">
             <div className="image-container"></div>
             <div className="description">
