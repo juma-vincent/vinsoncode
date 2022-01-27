@@ -1,4 +1,23 @@
 export const projectData = {
+  lesootiakdecor: {
+    id: 6,
+
+    title: "Lesootia K Decor",
+    description: `
+    Web application for a small-scale
+    business, lesootia k decor that allows customers to request for and book event planning
+    services, decorations and flower delivery.
+    `,
+
+    imageUrls: [
+      { id: "one", url: "/images/lesootiakdecor1.jpg" },
+      { id: "two", url: "/images/lesootiakdecor2.jpg" },
+      { id: "three", url: "/images/lesootiakdecor3.jpg" },
+    ],
+    website: `http://www.lesootiakdecor.com/`,
+    github: `https://github.com/juma-vincent/lesootiakdecor`,
+  },
+
   jamanu: {
     id: 5,
 
