@@ -23,8 +23,8 @@ const Homepage = () => {
               in React|Redux, Laravel and Node. I have
               3 years of experience writing production code using current libraries and frameworks.
               I find delight in unravelling problems faced today by leveraging the web technology. 
-              Am also an active contributor to open source projects on
-               <a id='github-link' href="https://github.com/juma-vincent">github</a>.
+              Am also an active contributor to open source projects
+               on <a id='github-link' href="https://github.com/juma-vincent">github</a>.
               Feel free to reach out to me. 
             </div>
           </div>
