@@ -20,13 +20,12 @@ const Homepage = () => {
             <div className="description">
             
               Hi, my name is Vincent Juma, a full stack web developer proficient
-               in Node/Express, React Js, Redux and MongoDB. I have
-              2 years of experience writing production level code with some of the popular Javascript 
-              Libraries. I take pride in creating solutions to problems faced by clients and 
-              I ensure any client I serve gets the best from me. I'm a curious persion, I love
-              learning new and challenging things, I enjoy solving problems. Am also an active contributor
-              to open source projects on <a id='github-link' href="https://github.com/juma-vincent">github</a>.
-              Feel free to reach out to me, via the contact details below. 
+              in React|Redux, Laravel and Node. I have
+              3 years of experience writing production code using current libraries and frameworks.
+              I find delight in unravelling problems faced today by leveraging the web technology. 
+              Am also an active contributor to open source projects on
+               <a id='github-link' href="https://github.com/juma-vincent">github</a>.
+              Feel free to reach out to me. 
             </div>
           </div>
         </div>
