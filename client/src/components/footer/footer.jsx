@@ -7,7 +7,7 @@ const Footer = () => {
       <h4 className="title"> Contact Information</h4>
       <small> Email: vinsoncode@gmail.com </small> <br />
       <small>Phone: +254712062516</small> <br/>
-      <small>&copy; 2021 by Vinsoncode. All rights reserved.</small>
+      <small>&copy; {new Date().getFullYear().toString()} by Vinsoncode. All rights reserved.</small>
     </div>
   );
 };

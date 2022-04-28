@@ -1,4 +1,23 @@
 export const projectData = {
+
+  lesootiakdecor: {
+    id: 7,
+
+    title: "GIMORES",
+    description: `
+    Web application for a non-profit Organization that provides safety for Gender Based Violence
+    survivors by giving them temporary shelter as they help them find refuge.
+    `,
+
+    imageUrls: [
+      { id: "one", url: "/images/gimores1.jpg" },
+      { id: "two", url: "/images/gimores2.jpg" },
+      { id: "three", url: "/images/gimores3.jpg" },
+    ],
+    website: `http://www.gimores.co.ke/`,
+    github: `https://github.com/juma-vincent/gimores`,
+  },
+
   lesootiakdecor: {
     id: 6,
 
