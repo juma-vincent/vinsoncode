@@ -1,13 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 import "./header.scss";
 
 const Header = () => {
+  
   return (
     <div className = "header-container" >
       <div className="logo-container" >
-        <img src="/images/logo.png" alt=""  />
+      <Link to="/" ><img src="/images/logo.png" alt=""  /></Link>
       </div>
       <div className="options-container">
         <Link to="/" className="option">
