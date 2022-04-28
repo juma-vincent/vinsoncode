@@ -3,13 +3,15 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   display: flex;
   height: 90px;
-  
+
   .logo {
     padding: 5px;
     height: 70px;
-    // width: 200px;
+    width: 200px;
     width: 17%;
-    @media screen and (max-width: 800px) {
+    background-color: blue;
+    
+   @media screen and (max-width: 800px) {
       margin-bottom: 20px;
       width: 27%;
     }
@@ -18,6 +20,8 @@ export const HeaderContainer = styled.div`
       width: 47%;
     }
   }
+  
+  
   .options-container {
     width: 80%;
     display: flex;
@@ -48,6 +52,8 @@ export const HeaderContainer = styled.div`
 
 
 `;
+
+
 
 // .header-container {
 //   display: flex;
