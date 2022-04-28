@@ -1,13 +1,16 @@
 import React from "react";
-import "./projectspage.scss";
 import ProjectItem from "../../components/projectItem/projectItem";
 import VideoBackground from "../../components/videoBackground/videoBackground";
+import { ProjectsContainer, ProjectsHeading } from "./projectspage.styled.jsx";
+// import "./projectspage.scss";
 
 const ProjectsPage = ({ projects }) => {
   return (
-    <div className="projects-container">
+    <ProjectsContainer>
+     {/* <div className="projects-container"> */}
       <VideoBackground />
-      <div className="projects-heading">MY PAST REACT JS PROJECTS</div>
+      <ProjectsHeading>MY PAST REACT JS PROJECTS</ProjectsHeading>
+      {/* <div className="projects-heading">MY PAST REACT JS PROJECTS</div>  */}
       {Object.keys(projects).map((key) => (
         <ProjectItem
           key={projects[key].id}
@@ -18,7 +21,8 @@ const ProjectsPage = ({ projects }) => {
           github={projects[key].github}
         />
       ))}
-    </div>
+    {/* </div> */}
+    </ProjectsContainer>
   );
 };
 

@@ -1,6 +1,6 @@
 export const projectData = {
 
-  lesootiakdecor: {
+  gimores: {
     id: 7,
 
     title: "GIMORES",

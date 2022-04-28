@@ -1,10 +1,10 @@
 import React from "react";
-import "./header.scss";
 import { Link } from "react-router-dom";
+import { HeaderContainer } from "./header.styled";
 
 const Header = () => {
   return (
-    <div className="header-container">
+    <HeaderContainer>
       <div className="logo">
         <img src="/images/logo.png" alt="" />
       </div>
@@ -16,7 +16,7 @@ const Header = () => {
           PROJECTS
         </Link>
       </div>
-    </div>
+    </HeaderContainer>
   );
 };
 

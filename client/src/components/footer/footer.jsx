@@ -1,16 +1,16 @@
 import React from "react";
-import "./footer.scss";
+import { FooterContainer } from "./footer.styled";
+
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <FooterContainer >
       <h4 className="title"> Contact Information</h4>
       <small> Email: vinsoncode@gmail.com </small> <br />
       <small>Phone: +254712062516</small> <br/>
-      <small>&copy; {new Date().getFullYear().toString()} by Vinsoncode. All rights reserved.</small>
-    </div>
+      <small>&copy; {new Date().getFullYear().toString()} Vinsoncode. All rights reserved.</small>
+    </FooterContainer >
   );
 };
 
 export default Footer;
-//serve -s build"

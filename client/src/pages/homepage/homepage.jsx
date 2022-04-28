@@ -1,10 +1,10 @@
 import React from "react";
-import "./homepage.scss";
+import { HomePageContainer } from "./homepage.styled.jsx"; 
 import VideoBackground from "../../components/videoBackground/videoBackground";
 
 const Homepage = () => {
   return (
-    <div className="homepage-container">
+    <HomePageContainer>
       <div className="background-image">
         <div className="profile-image"></div>
         <div className="profile-text">Full Stack Developer</div>
@@ -31,7 +31,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </HomePageContainer>
   );
 };
 

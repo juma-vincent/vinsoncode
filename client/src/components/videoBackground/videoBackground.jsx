@@ -1,13 +1,14 @@
 import React from "react";
-import "./videoBackground.scss";
+import { VideoBackgroundContainer } from "./videoBackground.styled";
+
 
 const VideoBackground = () => {
   return (
-    <div className="video-background">
+    <VideoBackgroundContainer>
       <video className="video-content" autoPlay muted loop>
         <source src="/videos/bgvideo1.mp4" type="video/mp4" />
       </video>
-    </div>
+    </VideoBackgroundContainer>
   );
 };
 

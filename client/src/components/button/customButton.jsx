@@ -1,11 +1,11 @@
 import React from "react";
-import "./customButton.scss";
+import { ButtonContainer } from "./customButton.styled";
 
 const CustomButton = ({ link, children }) => {
   return (
-    <div className="button-container">
+    <ButtonContainer>
       <a href={link}>{children} &rarr;</a>
-    </div>
+    </ButtonContainer>
   );
 };
 

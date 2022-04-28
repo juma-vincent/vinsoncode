@@ -1,10 +1,10 @@
 import React from "react";
-import "./projectItem.scss";
 import CustomButton from "../button/customButton";
+import { ProjectItemContainer } from "./projectItem.styled";
 
 const ProjectItem = ({ title, imageUrls, description, website, github }) => {
   return (
-    <div className="project-item-container">
+    <ProjectItemContainer>
       <div className="description">
         <h3>{title}</h3>
 
@@ -32,7 +32,7 @@ const ProjectItem = ({ title, imageUrls, description, website, github }) => {
           />
         ))}
       </div>
-    </div>
+    </ProjectItemContainer>
   );
 };
 
