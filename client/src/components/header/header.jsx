@@ -6,8 +6,8 @@ import "./header.scss";
 const Header = () => {
   return (
     <div className = "header-container" >
-      <div className="logo">
-        <img src="/images/logo.png" alt="" />
+      <div className="logo-container" >
+        <img src="/images/logo.png" alt=""  />
       </div>
       <div className="options-container">
         <Link to="/" className="option">

@@ -71,7 +71,7 @@ export const projectData = {
     github: `https://github.com/juma-vincent/Team-1193-Frontend`,
   },
   grancents: {
-    id: 2,
+    id: 3,
     title: "Grancents Collection",
     description: `
     An e-commerce application online store that allows users to shop for outfits of their choice. 
@@ -86,7 +86,7 @@ export const projectData = {
     github: `https://github.com/juma-vincent/grancents-collection`,
   },
   smartbrain: {
-    id: 3,
+    id: 2,
     title: "Smart Brain",
 
     description: `
@@ -101,7 +101,7 @@ export const projectData = {
     website: `https://smart-brain001.herokuapp.com/`,
   },
   robofriends: {
-    id: 4,
+    id: 1,
 
     title: "Robofriends",
     description: `
