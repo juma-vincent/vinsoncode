@@ -9,21 +9,11 @@ export const HomePageContainer = styled.div`
       background-image: linear-gradient(to right bottom, #070706f5, #26e20d2f),
         url("/images/background.jpg");
       background-size: cover;
-      height: 60vh;
+      height: 65vh;
       color: #ec9819a8;
       @media screen and (max-width: 800px) {
       }
 
-      .profile-image {
-        width: 270px;
-        height: 270px;
-        background-image: url("/images/profile2.png");
-        background-size: cover;
-        border: none;
-        display: block;
-        position: absolute;
-        top: 20px;
-        left: 530px;
 
         @media screen and (max-width: 800px) {
           width: 170px;
@@ -36,24 +26,7 @@ export const HomePageContainer = styled.div`
           left: 90px;
         }
       }
-      .profile-text {
-        font-size: 26px;
-        font-weight: 700;
-        color: white;
-        position: absolute;
-        top: 285px;
-        left: 542px;
-        @media screen and (max-width: 800px) {
-          top: 170px;
-          left: 230px;
-          font-size: 20px;
-          font-weight: 600;
-        }
-        @media screen and (max-width: 400px) {
-          top: 225px;
-          left: 87px;
-        }
-      }
+      
     }
 
     .main-section {

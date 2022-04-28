@@ -5,9 +5,8 @@ import VideoBackground from "../../components/videoBackground/videoBackground";
 const Homepage = () => {
   return (
     <HomePageContainer>
-      <div className="background-image">
-        <div className="profile-image"></div>
-        <div className="profile-text">Full Stack Developer</div>
+      <div className="background-image">     
+        
       </div>
 
       <div className="main-section">
