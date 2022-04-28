@@ -8,8 +8,7 @@ export const HeaderContainer = styled.div`
     padding: 5px;
     height: 70px;
     width: 200px;
-    width: 17%;
-    background-color: blue;
+    width: 17%;  
     
    @media screen and (max-width: 800px) {
       margin-bottom: 20px;
