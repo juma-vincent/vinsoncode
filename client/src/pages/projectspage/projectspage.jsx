@@ -10,7 +10,7 @@ const ProjectsPage = ({ projects }) => {
     <div className="projects-container"> 
       <VideoBackground />
       
-      <div className="projects-heading">MY PAST REACT JS PROJECTS</div> 
+      <div className="projects-heading">PAST PROJECTS</div> 
       {Object.keys(projects).map((key) => (
         <ProjectItem
           key={projects[key].id}
