@@ -33,7 +33,9 @@ export const projectData = {
       { id: "two", url: "/images/lesootiakdecor2.jpg" },
       { id: "three", url: "/images/lesootiakdecor3.jpg" },
     ],
-    website: `http://www.lesootiakdecor.com/`,
+    // website: `http://www.lesootiakdecor.com/`,
+    website: `https://lesootiakdecor.herokuapp.com/`,
+    
     github: `https://github.com/juma-vincent/lesootiakdecor`,
   },
 
